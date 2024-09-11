@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auction</title>
+  </head>
+  <body>
+    <h1 id="info" style="color: springgreen"></h1>
+    <h1 id="disconnectinfo" style="color: red"></h1>
+    <h1 id="offerValue" style="color: deepskyblue"></h1>
+    <h1 id="responseOfferValue"></h1>
+    <h2 id="timer"></h2>
+    <button id="bidBtn" onclick="IncreaseOffer()">Increase Offer</button>
+    <label for="user">Username</label>
+    <input type="text" id="user" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
